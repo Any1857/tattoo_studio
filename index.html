@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Studio</title>
+
+	<link rel="stylesheet" href="src/css/section.css">
+	<link rel="stylesheet" href="src/css/main.css">
+
+
+	<script type="text/javascript" src="dist/js/hide-mnu.js"></script>
+
+
+	<link href="https://fonts.googleapis.com/css?family=Forum|Kelly+Slab|Yeseva+One" rel="stylesheet"> 
+	<link rel="stylesheet" href="app/fonts/font-awesome/css/font-awesome.min.css">
+
+
+
+
+</head>
+<body>
+	<header>
+		<div class="top-line">
+			<div class="logo">
+				<a href="#" class="logo-fox"><img src="app/img/logo-1.png" alt="Чернильная Старого Лиса"></a>
+			</div>
+			<div class="mnu-line">
+			</div>
+			<div class="mnu">
+				<ul>
+					<li><a href="#" id="decor">О нас</a></li>
+					<li><a href="#">Услуги</a>
+						<ul class ="sub-mnu">
+							<li><a href="">Татуировка</a></li>
+							<li><a href="">Перманентный макияж</a></li>
+							<li><a href="">Сведение татуировки</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Портфолио</a>
+						<ul class ="sub-mnu">
+							<li><a href="">Татуировка</a></li>
+							<li><a href="">Перманентный макияж</a></li>
+							<li><a href="">Сведение татуировки</a></li>
+						</ul></li>
+
+						<li><a href="#">Цены</a>
+							<ul class ="sub-mnu">
+								<li><a href="">Стоимость услуг
+								</a>
+							</li>
+							<li><a href="">Акции и предложения</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class="phone">
+				<div class="social">
+					<a href="https://vk.com/old_fox_inks" class="vk"><img class="big" src="app/img/logo-vk.png" alt="VK" width="27px"></a>
+					<a href="https://www.instagram.com/old_fox_inks/" class="insta"><img class="big" src="app/img/logo-insta.png" alt="INSTAGRAM" width="27px"></a>
+					<a href="#" class="fb"><img class="big" src="app/img/logo-fb.png" alt="FACEBOOK" width="27px"></a>
+				</div>
+				<div class="telephone">8 (916) 989-21-85</div>
+			</div>
+
+
+
+
+		</div>
+		<div id="middle-line">
+			<img src="app/img/bg.png" alt="" id="fox" onmouseover="showSub();">
+					<ul id="abs">
+						<li><div id="flo"><p class="d">Чернильная старого лиса - это тату-студия, созданная для ЛЮДЕЙ. Нас ценят за качественный сервис и индивидуальный подход!</p></div></li>
+						<li><div id="flo1"><p class="d">Наша команда - это универсалы, работающие в совершенно разных стилях и постоянно развивающиеся в своём мастерстве.</p></div></li>
+						<li><div id="flo2"><p class="d">Мы отвечаем за свои слова и действия!</p></div></li>
+					</ul>
+		</div>
+	</div>
+
+	</header>
+	<article>
+		<div class="bottom-block">
+			<div class="bottom-line">
+				<button id="photo-button" onclick="prev(); prev1(); prev2(); slidePrev();">
+					<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+				</button>
+
+
+				<div class="ph-left"><img id="slider1" src="app/img/photo/img-6.jpg" alt="tattoo"></div>
+				<div class="ph-center"><img id="slider2" src="app/img/photo/img-0.jpg" alt="tattoo"></div>
+				<div class="ph-right"><img id="slider3" src="app/img/photo/img-1.jpg" alt="tattoo"></div>
+
+
+				<button id="photo-button" onclick="next(); next1(); next2();">
+					<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+				</button>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+	</article>
+
+
+
+
+</body>
+</html>
